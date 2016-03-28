@@ -10,7 +10,9 @@ Used the USA Today's New Seven Wonders List as content.
 ![RayWenderlich Tutorial Image](https://cdn4.raywenderlich.com/wp-content/uploads/2015/05/Screen-Shot-2015-05-22-at-11.48.13-PM.png)
 
 ## My implementation
-![My implementation](./simulatorscreen.png)
+<img src="simulatorscreen.png" width="380" height="676" />
+
+
 
 ## TODO
 1. Add the rest of the details to the cards
