@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Potala Palace</string>
+		<key>Location</key>
+		<string>Lhasa, Tibet, China</string>
+		<key>Position</key>
+		<string>#1</string>
+		<key>Background</key>
+		<string>background-1</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Old City of Jerusalem</string>
+		<key>Location</key>
+		<string>Jerusalem</string>
+		<key>Position</key>
+		<string>#2</string>
+		<key>Background</key>
+		<string>background-2</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Polar ice caps</string>
+		<key>Location</key>
+		<string>Polar regions</string>
+		<key>Position</key>
+		<string>#3</string>
+		<key>Background</key>
+		<string>background-3</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Papahānaumokuākea Marine National Monument</string>
+		<key>Location</key>
+		<string>Hawaii, United States</string>
+		<key>Position</key>
+		<string>#4</string>
+		<key>Background</key>
+		<string>background-4</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Internet</string>
+		<key>Location</key>
+		<string>Earth</string>
+		<key>Position</key>
+		<string>#5</string>
+		<key>Background</key>
+		<string>background-5</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Mayan ruins</string>
+		<key>Location</key>
+		<string>Yucatán Peninsula, México</string>
+		<key>Position</key>
+		<string>#6</string>
+		<key>Background</key>
+		<string>background-6</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Great Migration of Serengeti and Masai Mara</string>
+		<key>Location</key>
+		<string>Tanzania and Kenya</string>
+		<key>Position</key>
+		<string>#7</string>
+		<key>Background</key>
+		<string>background-7</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Grand Canyon</string>
+		<key>Location</key>
+		<string>Arizona, United States</string>
+		<key>Position</key>
+		<string>#8</string>
+		<key>Background</key>
+		<string>background-8</string>
+	</dict>
+</array>
+</plist>
