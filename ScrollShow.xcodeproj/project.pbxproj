@@ -19,6 +19,7 @@
 		174BD4AA1CA4CD52003358F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174BD4A91CA4CD52003358F8 /* Main.storyboard */; };
 		174BD4AD1CA4CF54003358F8 /* CardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 174BD4AC1CA4CF54003358F8 /* CardModel.m */; };
 		174BD4B31CA4D606003358F8 /* CustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 174BD4B21CA4D606003358F8 /* CustomLayout.m */; };
+		C29773CCD165CCCC6228A535 /* libPods-ScrollShow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA905BF82A0775263151837 /* libPods-ScrollShow.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,9 @@
 		174BD4AC1CA4CF54003358F8 /* CardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardModel.m; sourceTree = "<group>"; };
 		174BD4B11CA4D606003358F8 /* CustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayout.h; sourceTree = "<group>"; };
 		174BD4B21CA4D606003358F8 /* CustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayout.m; sourceTree = "<group>"; };
+		2C43A9691FA5A99F99084A0E /* Pods-ScrollShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollShow/Pods-ScrollShow.debug.xcconfig"; sourceTree = "<group>"; };
+		AEA905BF82A0775263151837 /* libPods-ScrollShow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollShow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E683EDCF54B6482AB8482A02 /* Pods-ScrollShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollShow.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollShow/Pods-ScrollShow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C29773CCD165CCCC6228A535 /* libPods-ScrollShow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,8 @@
 			children = (
 				174BD4871CA4C8CD003358F8 /* ScrollShow */,
 				174BD4861CA4C8CD003358F8 /* Products */,
+				E8EB01CE4D76ED392F86462B /* Pods */,
+				6AFB177BA33BBBF394912F9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,6 +178,23 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
+		6AFB177BA33BBBF394912F9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEA905BF82A0775263151837 /* libPods-ScrollShow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8EB01CE4D76ED392F86462B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C43A9691FA5A99F99084A0E /* Pods-ScrollShow.debug.xcconfig */,
+				E683EDCF54B6482AB8482A02 /* Pods-ScrollShow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 174BD49C1CA4C8CD003358F8 /* Build configuration list for PBXNativeTarget "ScrollShow" */;
 			buildPhases = (
+				D30166405286B941D650A22F /* [CP] Check Pods Manifest.lock */,
 				174BD4811CA4C8CD003358F8 /* Sources */,
 				174BD4821CA4C8CD003358F8 /* Frameworks */,
 				174BD4831CA4C8CD003358F8 /* Resources */,
+				D5EC02BCDA12D839914D8C1C /* [CP] Embed Pods Frameworks */,
+				0CEE582A84E452197A279FE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +263,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CEE582A84E452197A279FE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollShow/Pods-ScrollShow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D30166405286B941D650A22F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5EC02BCDA12D839914D8C1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollShow/Pods-ScrollShow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		174BD4811CA4C8CD003358F8 /* Sources */ = {
@@ -351,9 +426,11 @@
 		};
 		174BD49D1CA4C8CD003358F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C43A9691FA5A99F99084A0E /* Pods-ScrollShow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScrollShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = franciscoamado.ScrollShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -362,9 +439,11 @@
 		};
 		174BD49E1CA4C8CD003358F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E683EDCF54B6482AB8482A02 /* Pods-ScrollShow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScrollShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = franciscoamado.ScrollShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";

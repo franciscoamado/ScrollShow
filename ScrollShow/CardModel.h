@@ -20,6 +20,4 @@
 + (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 + (NSArray <CardModel *> *)allCards;
 
-- (NSString *)roomAndTime;
-
 @end

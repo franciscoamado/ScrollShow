@@ -129,4 +129,12 @@ static CGFloat dragOffset = 180;
     return YES;
 }
 
+// Method of UIScrollView that allows your app to respond with an effect similar to the page snapping effect of a paged UIScrollView.
+- (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity
+{
+    float itemIndex = roundf(proposedContentOffset.y / dragOffset);
+    float yOffset = itemIndex * dragOffset;
+    return CGPointMake(0, yOffset);
+}
+
 @end

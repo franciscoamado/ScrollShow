@@ -38,7 +38,8 @@
 
     UIImage *backgroundImage = [UIImage imageNamed:backgroundImageTitle];
 
-    return [[CardModel alloc]initWith:title room:room time:time andBackgroundImage:[backgroundImage decompressedImage]];
+//    return [[CardModel alloc]initWith:title room:room time:time andBackgroundImage:[backgroundImage decompressedImage]];
+    return [[CardModel alloc]initWith:title room:room time:time andBackgroundImage:backgroundImage];
 }
 
 + (NSArray <CardModel *> *)allCards

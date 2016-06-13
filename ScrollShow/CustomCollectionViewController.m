@@ -18,6 +18,7 @@
     [self.collectionView setDataSource:self];
 
     self.cardArray = [CardModel allCards];
+    [self.collectionView setDecelerationRate:UIScrollViewDecelerationRateFast];
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle
